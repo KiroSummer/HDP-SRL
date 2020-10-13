@@ -18,14 +18,18 @@ Please follow [Chinese-SRL](https://github.com/KiroSummer/A_Syntax-aware_MTL_Fra
 ### Dependency Data
 For Chinese, we use the PCTB and CDT as the dependency treebanks.
 For English, we use the PTB and UD as the dependency treebanks.
-
-
+As described in our paper, we employ the biaffine parser to obtain the automatic dependency trees of the SRL data.
+Since only the UD treebank is publicly available, we give an example as follows:
+![ud-conll05-example](img/auto-ud-conll05.png)
+The last column is the dependency edge probabilities.
 
 ### Training
+Preparing all the data, then you can train our model with the command:
 ```
 bash train.sh GPU_ID
 ```
 ### Test
+For evaluation, the bash command is:
 ```
 bash predict.sh GPU_ID
 ```
