@@ -5,7 +5,7 @@ Code for our **COLING-2020** paper,
 
 Qingrong Xia, Rui Wang, Zhenghua Li, Yue Zhang, and Min Zhang
 
-[HDP-SRL](img/HDP-SRL.jpg)
+![HDP-SRL](img/HDP-SRL.png)
 
 ## Requirements
 Python2, Pytorch0.4.1
