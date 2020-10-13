@@ -22,6 +22,7 @@ As described in our paper, we employ the biaffine parser to obtain the automatic
 Since only the UD treebank is publicly available, we give an example as follows:
 ![ud-conll05-example](img/auto-ud-conll05.png)
 The last column is the dependency edge probabilities.
+Besides, we upload the CPB1.0 model in ![url](https://drive.google.com/file/d/1d8ROO1q8Qbzd_XqnfOtAgC2tVn_7K4kA/view?usp=sharing)
 
 ### Training
 Preparing all the data, then you can train our model with the command:
